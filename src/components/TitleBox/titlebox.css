@@ -1,0 +1,42 @@
+.title-box{
+  padding-top: 1rem;
+  padding-bottom: 1.2rem;
+  border-top: 1px #F2F2F2 solid;
+  margin-top: .3rem;
+
+}
+
+
+
+
+.title-box h6{
+  padding-bottom: .2rem;
+}
+
+.tax{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+.total-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1.2rem;
+  border-top: 1px #F2F2F2 solid;
+  margin-top: .3rem;
+  /* padding-right: 25px; */
+}
+
+.pb-1{
+  padding-bottom: 1rem;
+}
+.with-tax {
+  display: block;
+}
+

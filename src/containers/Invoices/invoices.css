@@ -1,0 +1,108 @@
+
+/* nave bar */
+.navbar-end .button {
+  font-size: 0.9em;
+  height: 2.75em;
+}
+/* Hero head */
+.more-txt{
+  margin-right: 15px;
+}
+
+.hero .hero-body {
+  padding: .8rem 2rem;
+}
+.hero-head {
+  padding-left: 1rem;
+}
+.hero .tabs ul {
+  padding-left: 2rem;
+}
+.vendor-notify,.invoice-summary {
+  opacity: 0;
+  display: none;
+  padding-top: .2rem;
+}
+
+.invoice-summary h5{
+  margin-right: 3rem;
+}
+
+.Collapsible__trigger.is-open .fas.fa-angle-down{
+  transform: rotate(180deg)
+}
+
+.Collapsible__trigger.is-open .vendor-notify{
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  opacity: 1;
+  display: block;
+}
+
+.Collapsible__trigger.is-closed .invoice-summary{
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* invoice */
+
+.invoice-content{
+  background: #FAFAFA;
+  padding: 2rem 2rem;
+}
+.invoice-title {
+  margin-right: 1rem;
+}
+
+
+/* Tabs */
+.tabs a {
+  margin-right: 20px;
+  vertical-align: top;
+  padding: 17px 0;
+  min-width: 69px;
+  font-weight: bold;
+}
+.tabs li.is-active a {
+  color: black;
+  border-bottom-width: 3px;
+
+}
+
+.tabs li a {
+  color: #dbdbdb;
+
+}
+.tabs a:hover {
+  /* border-bottom-width: 3px; */
+  border-bottom-color: #dbdbdb;
+  color: #363636;
+}
+
+
+.table {
+  background: inherit;
+}
+
+.table .name-bar {
+  min-width: 20rem;
+  padding-left: 0;
+  font-size: .9rem;
+  min-width: 20rem;
+  padding-left: 0;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+}
+
+.table td{
+  vertical-align: middle;
+}
